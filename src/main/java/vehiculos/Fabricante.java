@@ -45,7 +45,7 @@ public class Fabricante {
 	}
 
 	public Pais getPais() {
-		return pais;
+		return this.pais;
 	}
 
 	public void setPais(Pais pais) {
