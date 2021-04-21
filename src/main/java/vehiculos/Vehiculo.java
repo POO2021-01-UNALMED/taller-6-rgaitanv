@@ -32,7 +32,7 @@ public class Vehiculo {
 		cantidadVehiculos = n;
 	}
 	
-	public String vehiculosPorTipo() {
+	public static String vehiculosPorTipo() {
 		return "Automoviles: " + Automovil.getcantidadAutomoviles() 
 				+"\nCamionetas: " + Camioneta.getcantidadCamionetas() + ""
 				+"\nCamiones: " + Camion.getcantidadCamiones();
