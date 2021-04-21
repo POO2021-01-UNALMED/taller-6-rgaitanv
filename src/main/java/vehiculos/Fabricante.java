@@ -5,7 +5,7 @@ import java.util.ArrayList;
 public class Fabricante {
 	private String nombre;
 	private Pais pais;
-	private static ArrayList<Fabricante> fabricantes;
+	private static ArrayList<Fabricante> fabricantes = new ArrayList<Fabricante>();
 	
 	public Fabricante(String nombre, Pais pais) {
 		super();
